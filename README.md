@@ -115,19 +115,10 @@ git push origin main
 
 ---
 
-## 🧑‍💻 Contributors
 
-- Nischal Poudel – Lead Developer  
-- [Add teammate names here]
-
----
 
 ## 📄 License
 
 This project is for educational and internal use only. License to be added upon official deployment.
 
 ---
-
-## 📬 Contact
-
-If you have questions or want to contribute, reach out to `@Nischal-3202` on GitHub or email [nischalpoudel2004@gmail.com].
