@@ -1,0 +1,44 @@
+.ministry-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ministry-details {
+  color: #1B365D;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.ministry-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ministry-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.view-offices-button {
+  background-color: #2D4E6A;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-offices-button:hover {
+  background-color: #1B365D;
+}

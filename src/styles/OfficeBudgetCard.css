@@ -1,0 +1,41 @@
+
+
+
+.office-budget-card {
+    background-color: #a8c9f0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.office-budget-card h3 {
+    color: #1B365D;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.budget-amount {
+    font-size: 16px;
+    color: #1B365D;
+    margin-bottom: 20px;
+}
+
+.track-button {
+    background-color: #2D4E6A;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.track-button:hover {
+    background-color: #1B365D;
+}

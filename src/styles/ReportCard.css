@@ -1,0 +1,43 @@
+
+
+
+.report-card {
+  background-color: #cfe9fd;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 240px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.report-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #1B365D;
+}
+
+.report-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2D4E6A;
+  margin-bottom: 20px;
+}
+
+.report-button {
+  background-color: #2D4E6A;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.report-button:hover {
+  background-color: #1B365D;
+}

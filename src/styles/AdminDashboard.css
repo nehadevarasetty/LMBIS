@@ -1,0 +1,31 @@
+
+
+
+.admin-dashboard {
+  display: flex;
+}
+
+.admin-main {
+  margin-left: 240px; /* matches sidebar width */
+  padding: 40px;
+  width: calc(100% - 240px);
+  background: linear-gradient(to bottom right, #e0f2ff, #f5fbff);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.admin-header {
+  margin-bottom: 30px;
+}
+
+.admin-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1B365D;
+}
+
+.admin-tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 80px;
+}

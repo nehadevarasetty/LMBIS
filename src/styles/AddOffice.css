@@ -1,0 +1,104 @@
+.add-office-container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #cfe9fd, #ffffff);
+}
+
+.add-office-header {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1B365D;
+  margin-bottom: 30px;
+}
+
+.form-box {
+  background-color: #cfe9fd;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  width: 450px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: #1B365D;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7fafd;
+}
+
+button.add-button {
+  margin-top: 20px;
+  background-color: #2D4E6A;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.add-button:hover {
+  background-color: #1b365d;
+}
+
+
+.back-button-container {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.back-dashboard-button {
+  background-color: #2D4E6A;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+.back-dashboard-button:hover {
+  background-color: #1B365D;
+}
+
+.cancel-office-button {
+  margin-top: 25px;
+  background-color: #2D4E6A;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ 
+
+.cancel-office-button:hover {
+  background-color: #1b365d;
+}

@@ -1,0 +1,26 @@
+.transfer-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transfer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.transfer-heading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1B365D;
+  margin-bottom: 10px;
+}
+
+.transfer-detail {
+  font-size: 14px;
+  margin: 4px 0;
+  color: #333;
+}

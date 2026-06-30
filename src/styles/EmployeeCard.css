@@ -1,0 +1,47 @@
+.employee-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.employee-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.employee-card h4 {
+  color: #1B365D;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.employee-card p {
+  font-size: 14px;
+  color: #2D4E6A;
+}
+
+.edit-button {
+  background-color: #2D4E6A;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.edit-button:hover {
+  background-color: #1B365D;
+}

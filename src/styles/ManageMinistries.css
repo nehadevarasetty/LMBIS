@@ -1,0 +1,87 @@
+.manage-ministries-container {
+  margin-left: 220px;
+  padding: 60px;
+  background: linear-gradient(to bottom, #cfe9fd, #ffffff);
+  min-height: 100vh;
+}
+
+.manage-ministries-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1B365D;
+  margin-bottom: 40px;
+  border-bottom: 3px solid #1B365D;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.add-ministry-box {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.add-ministry-heading {
+  font-size: 20px;
+  color: #1B365D;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.ministry-form label {
+  display: block;
+  font-weight: 600;
+  color: #2D4E6A;
+  margin-bottom: 8px;
+  margin-top: 15px;
+}
+
+.ministry-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7fafd;
+}
+
+.submit-button {
+  margin-top: 25px;
+  background-color: #2D4E6A;
+  color: white;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1B365D;
+}
+
+
+.back-dashboard-button {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: #2D4E6A;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-dashboard-button:hover {
+  background-color: #1B365D;
+}

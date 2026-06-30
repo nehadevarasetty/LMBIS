@@ -1,0 +1,58 @@
+.budget-card {
+  background-color: #9FCBF6;
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ministry-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1B365D;
+}
+
+.budget-label {
+  margin-bottom: 5px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.budget-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.approve-button {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.approve-button:hover {
+  background-color: #218838;
+}
+.fiscal-year-input {
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+

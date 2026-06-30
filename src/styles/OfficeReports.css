@@ -1,0 +1,65 @@
+.reports-page {
+  display: flex;
+  margin-left: 220px; /* Adjust based on actual sidebar width */
+}
+
+.reports-content {
+  flex-grow: 1;
+  padding: 40px;
+  background: linear-gradient(to bottom, #cfe9fd, #ffffff);
+  min-height: 100vh;
+}
+
+.reports-title {
+  font-size: 28px;
+  color: #1B365D;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.report-cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filters-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 600px;
+  margin-left: 270px;
+}
+
+.filters-section select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: white;
+  color: #2D4E6A;
+  font-weight: 500;
+}
+
+.back-dashboard-button {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: #2D4E6A;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+.back-dashboard-button:hover {
+  background-color: #1B365D;
+}

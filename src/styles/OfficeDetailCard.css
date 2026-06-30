@@ -1,0 +1,26 @@
+
+
+.office-detail-card {
+  background-color: #a8c9f0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.office-detail-card h3 {
+  color: #1B365D;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.details-box p {
+  font-size: 16px;
+  color: #1B365D;
+  margin-bottom: 10px;
+}
+
+.details-box p strong {
+  color: #2D4E6A;
+}

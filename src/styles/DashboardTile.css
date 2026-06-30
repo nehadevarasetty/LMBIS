@@ -1,0 +1,49 @@
+
+
+
+.dashboard-tile {
+  background-color: #9FCBF6;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dashboard-tile:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3);
+}
+
+.tile-icon {
+  height: 60px;
+  width: auto;
+  margin: 0 auto 10px auto;
+}
+
+.tile-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.tile-button {
+  background-color: #2D4E6A;
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.tile-button:hover {
+  background-color: #1c334c;
+}
